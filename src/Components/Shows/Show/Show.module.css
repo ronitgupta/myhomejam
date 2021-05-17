@@ -1,0 +1,88 @@
+.Show{
+    width: 60vw;
+    background-color: rgb(82, 5, 82);
+    border-radius: 5%;
+    margin-right: 5vw;
+    box-shadow: 5vw -10px 0px 0px rgb(133, 43, 133);;
+}
+
+.Show img{
+    width: 100%;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    height: 35vh;
+    margin-bottom: 10px;
+}
+
+.Type{
+    background-color: rgb(240, 183, 12);
+    padding: 2px 5px;
+    display: inline;
+    margin-top: 2vh;
+    margin-left: 3vw;
+    font-size: 0.7rem;
+}
+
+.Name{
+    color: white;
+    margin-top: 2vh;
+    margin-left: 3vw;
+    font-weight: bold;
+    font-size: 1.125rem;
+    margin-bottom: 0;
+}
+
+.Show section{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1vh 3vw;
+    color: grey
+}
+
+.Ticket svg{
+    transform: rotate(90deg);
+    color: white;
+}
+
+.Ticket svg:hover{
+    color: purple;
+}
+
+.Info{
+    color: blue;
+    text-decoration: none;
+}
+
+@media(min-width: 800px){
+    .Show{
+        width: 16vw;
+        border-radius: 5%;
+        margin-right: 2.5vw;
+        box-shadow: 1.5vw -10px 0px 0px rgb(133, 43, 133);
+    }
+    
+    .Type{
+        margin-left: 1.5vw;
+    }
+    
+    .Name{
+        margin-left: 1.5vw;
+        font-size: 1.475rem;
+    }
+    
+    .Show section{
+        margin: 1vh 1.5vw;
+    }
+
+    .Show section p,
+    .Show section a{
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .Ticket svg{
+        font-size: 1.25rem;
+    }
+}

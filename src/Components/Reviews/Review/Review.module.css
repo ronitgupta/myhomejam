@@ -1,0 +1,94 @@
+.Review{
+    width: 75vw;
+    border: 0.7vw solid rgb(255, 191, 0);
+    border-radius: 5%;
+    box-shadow: 3vw -3vw 0 0 rgb(23, 170, 193);
+    margin-top: 5vh;
+}
+
+.Review table{
+    margin-top: 2vh;
+}
+
+.Picture{
+    width: 22vw;
+    height: 22vw;
+    border-radius: 50%;
+    margin-left: 5vw;
+}
+
+.Name{
+    display: block;
+    font-size: 1.25rem;
+    color: white;
+    font-weight: 500;
+    margin-left: 5vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.Flag{
+    display: inline;
+    width: 5vh;
+    margin-left: 5vw;
+    height: 3vh;
+}
+
+.Location{
+    display: inline;
+    color:rgb(255, 191, 0);
+    padding-left: 3vw;
+    font-weight: 200;
+    vertical-align: top;
+}
+
+.Message{
+    color: rgb(205,205,205);
+    font-weight: 300;
+    padding-left: 5vw;
+}
+
+@media(min-width: 800px){
+    .Review{
+        width: 22vw;
+        margin-right: 3vw;
+        border: 0.2vw solid rgb(255, 191, 0);
+        box-shadow: 0.5vw -0.5vw 0 0 rgb(23, 170, 193);
+    }
+    
+    .Review table{
+        margin-top: 2vh;
+    }
+    
+    .Picture{
+        width: 5vw;
+        height: 5vw;
+        border-radius: 50%;
+        margin-left: 1vw;
+    }
+    
+    .Name{
+        font-weight: 600;
+        margin-left: 1.5vw;
+        margin-top: 0.1vh;
+        margin-bottom: 1.5vh;
+    }
+    
+    .Flag{
+        width: 4vh;
+        margin-left: 1.5vw;
+        height: 2.7vh;
+    }
+    
+    .Location{
+        padding-left: 1vw;
+        font-weight: 300;
+        vertical-align: top;
+    }
+    
+    .Message{
+        color: rgb(205,205,205);
+        font-weight: 300;
+        padding-left: 1.5vw;
+    }
+}

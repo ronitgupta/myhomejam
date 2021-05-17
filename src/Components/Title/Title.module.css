@@ -1,0 +1,98 @@
+.Title{
+    background-image: url('../../Assets/Images/title.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 25vh;
+}
+
+.Title div{
+    padding-top: 40vh;
+    padding-left: 5vw;
+    color: white;
+    width: 75vw;
+}
+
+.Title p{
+    margin: 0;
+    padding: 0;
+    color: rgb(245,245,245)
+}
+
+.Title h1{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 2vh;
+}
+
+.Stats {
+    background-color: rgb(42, 3, 42);
+    margin: 0;
+    padding: 5vh 0;
+    box-shadow: 10px 10px 10vh 13vh rgb(42, 3, 42);
+    color: white;
+    display: flex;
+}
+
+.ShowMobile{
+    display: block;
+    overflow: hidden;
+    margin: 0 3vw;
+}
+
+.ShowDesktop{
+    display: none;
+}
+
+.ShowMobile div{
+    
+    margin-right: 4vw;
+}
+
+.Symbol,
+.Number,
+.Label{
+    margin: 0;
+    padding: 0;
+    margin-top: 1vh
+}
+
+@media(min-width: 800px){
+    .Title div{
+        width: 35vw;
+    }
+
+    .Title{
+        padding-bottom: 40vh;
+    }
+
+    .Title p{
+        font-size: 1.25rem;
+    }
+    
+    .Title h1{
+        font-size: 3rem;
+        padding-bottom: 3vh;
+    }
+
+    .Stats {
+        padding: 2vh 7vw;
+    }
+    
+    .ShowMobile{
+        display: none;
+    }
+
+    .ShowDesktop{
+        display: flex;
+        margin: 0 3vw;
+    }
+
+    .ShowDesktop div{
+        height: 15vw;
+        width: 15vw;
+        margin-right: 4vw;
+    }   
+}
+

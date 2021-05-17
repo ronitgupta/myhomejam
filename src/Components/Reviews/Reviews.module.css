@@ -1,0 +1,56 @@
+.Reviews{
+    margin: 0;
+    padding: 0;
+    background: rgb(42, 3, 42);
+    padding: 5vh 3vw;
+}
+
+.Reviews h2{
+    color: white;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 4vh;
+}
+
+.Reviews h2 span{
+    text-decoration: underline blue 3px;
+}
+
+.Review{
+    margin: 0;
+    padding: 0 5vw;
+    padding-bottom: 10vh;
+    display: flex;
+}
+
+.ShowDesktop{
+    display: none;
+}
+
+.ShowMobile{
+    display: flex;
+    overflow: hidden;
+}
+
+@media (min-width: 800px) {
+    .Reviews{
+        padding: 10vh 10vw;
+    }
+    
+    .Reviews h2{
+        font-size: 2.5rem;
+        font-weight: 400;
+    }
+    
+    .Review{
+        padding: 0 0vw;
+    }
+
+    .ShowDesktop{
+        display: flex;
+    }
+
+    .ShowMobile{
+        display: none;
+    }
+}

@@ -1,0 +1,64 @@
+.Navigation{
+    display: flex;
+    font-size: large;
+    color: white;
+    flex-wrap: nowrap;
+    list-style-type: none;
+    justify-content: flex-start;
+    padding: 1.1vh 3vw;
+    margin: 0;
+    padding-bottom: 0;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+}
+
+.Navigation img{
+    width: 23vw;
+}
+
+.IconStart{
+    margin-left: 35vw;
+}
+
+.Navigation svg{
+    margin-right: 8vw;
+}
+
+.DesktopDisplay{
+    display: none;
+}
+
+@media(min-width: 800px){
+    .Navigation{
+        padding: 0.6vh 10vw;
+    }
+
+    .DesktopDisplay{
+        display: block;
+        margin-right: 3vw;
+        color: white;
+        font-weight: 500;
+    }
+
+    .MobileDisplay{
+        display: none;
+    }
+    
+    .Navigation img{
+        width: 8vw;
+        height: 8vh;
+    }
+
+    .IconStart{
+        margin-left: 43vw;
+    }
+
+    .IconStart + span{
+        display: inline;
+    }
+    
+    .Navigation svg{
+        margin-right: 0;
+    }
+}

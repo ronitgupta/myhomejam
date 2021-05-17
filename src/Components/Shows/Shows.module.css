@@ -1,0 +1,70 @@
+.Shows{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5vh 3vw;
+    background-color: rgb(42, 3, 42);
+    margin-bottom: 0;
+}
+
+.Shows h2{
+    color: white;
+}
+
+.Shows h2 span{
+    text-decoration: underline blue 3px;
+}
+
+.Shows a{
+    color: rgb(232, 176, 8);
+    font-weight: 600;
+    font-size: 1.125rem;
+    text-decoration: none;
+}
+
+.Show {
+    background-color: rgb(42, 3, 42);
+    margin: 0;
+    padding: 0vh 5vw;
+    padding-bottom: 10vh;
+    display: flex;
+}
+
+.ShowDesktop{
+    display: none;
+}
+
+.ShowSlider{
+    display: block;
+    overflow: hidden;
+}
+
+@media(min-width: 800px){
+    .Shows{
+        padding: 5vh 10vw;
+    }
+    
+    .Shows h2{
+        font-size: 2.5rem;
+        font-weight: 400;
+    }
+
+    .Shows a{
+        font-size: 1rem;
+        text-decoration: none;
+        margin-right: 6vw;
+    }
+    
+    .Show {
+        padding: 0 10vw;
+    }
+
+    .ShowDesktop{
+        display: flex;
+    }
+
+    .ShowSlider{
+        display: none;
+    }
+}
